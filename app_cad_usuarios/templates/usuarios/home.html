@@ -1,0 +1,15 @@
+{% extends 'usuarios/base.html' %}
+{% block conteudo %}
+<div style="text-align: center;" class="container">
+    <h1>
+        Olá, seja bem-vindo ao Cadastro Básico!
+    </h1>
+</div>
+<br>
+<div style="text-align: center;" class="container">
+    <nav>
+        <button class="form-control-sm"><a style="text-decoration: none; color: black;" href="{% url 'cadastro' %}">Entrar</a></button>
+    </nav>
+</div>
+
+{% endblock %}
